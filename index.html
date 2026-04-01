@@ -7,7 +7,13 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     
     <!-- This sends you to NordPass automatically -->
-    <script>window.location.href = "https://app.nordpass.com/vault";</script>
+    <script>
+    // This waits 3 seconds (3000 milliseconds) before redirecting
+    setTimeout(function(){
+        window.location.href = "https://app.nordpass.com/vault";
+    }, 3000);
+</script>
+
 </head>
 <body>Redirecting to NordPass...</body>
 </html>
