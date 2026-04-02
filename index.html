@@ -2,38 +2,19 @@
 <html>
 <head>
     <title>NordPass</title>
-    <!-- Use a direct link to a NordPass logo for the icon -->
-    <!DOCTYPE html>
-<html>
-<head>
-    <title>NordPass</title>
-    <!-- Use a direct link to a NordPass logo for the icon -->
+    <!-- This is the direct image link Safari needs for the icon -->
     <link rel="apple-touch-icon" href="https://mzstatic.com">
-
     <meta name="apple-mobile-web-app-capable" content="yes">
     
-    <!-- This sends you to NordPass automatically -->
     <script>
-    // This waits 3 seconds (3000 milliseconds) before redirecting
-    setTimeout(function(){
-        window.location.href = "https://app.nordpass.com/vault";
-    }, 3000);
-</script>
-
+        // Waits 3 seconds so you have time to tap 'Add to Home Screen'
+        setTimeout(function(){
+            window.location.href = "https://app.nordpass.com/vault";
+        }, 3000);
+    </script>
 </head>
-<body>Redirecting to NordPass...</body>
-</html>
-
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    
-    <!-- This sends you to NordPass automatically -->
-    <script>
-    // This waits 3 seconds (3000 milliseconds) before redirecting
-    setTimeout(function(){
-        window.location.href = "https://app.nordpass.com/vault";
-    }, 3000);
-</script>
-
-</head>
-<body>Redirecting to NordPass...</body>
+<body>
+    <p>Redirecting to NordPass in 3 seconds...</p>
+    <p>Tap Share > Add to Home Screen now to save with the custom icon!</p>
+</body>
 </html>
